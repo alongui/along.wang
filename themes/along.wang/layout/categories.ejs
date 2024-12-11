@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="col-md-8">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative p-5">
+      <%- partial('_partial/category', {categories: site.categories.filter(category=> category.posts.some(post =>
+        post.lang === page.lang)), lang: page.lang}) %>
+    </div>
+</div>
+</div>

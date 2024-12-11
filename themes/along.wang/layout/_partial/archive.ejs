@@ -1,0 +1,20 @@
+<section class="archive">
+    <% posts.each(function(post) { %>
+    <div class="col-md-8">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col-auto d-none d-lg-block">
+                <img src="/assets/software/<%= post.cover %>" width="290" height="235.8">
+            </div>
+            <div class="col p-4 m-3 d-flex flex-column position-static">
+                <h4 class="mb-2"><%= post.title %></h4>
+                <div class="mb-3 text-body-secondary"><%= date(post.date, "YYYY-MM-DD" ) %></div>
+                <p class="mb-auto"><%= post.description %></p>
+                <a href="<%- url_for(post.path) %>" class="icon-link gap-1 icon-link-hover stretched-link text-secondary">
+                    <%= __('button.ContinueReading') %>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <% }) %>
+</section>

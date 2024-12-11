@@ -1,0 +1,19 @@
+menu:
+  home: /
+  archives: /archives
+  categories: /categories
+  open-source: /categories/open-source
+  about: /about
+
+
+# 默认语言
+language: zh-CN
+
+# 多语言配置
+languages:
+  zh-CN:
+    category:
+      path: /zh-CN/categories/
+  en:
+    category:
+      path: /en/categories/
