@@ -1,0 +1,185 @@
+a {
+    text-decoration: none;
+}
+
+.nav {
+    font-size: 14px;
+}
+
+body {
+    background-color: #f5f6f7;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
+}
+
+.dropdown-menu {
+    font-size: 12px;
+}
+
+.dropdown-menu li {
+    padding: 0px 8px;
+}
+
+.dropdown-menu li a {
+    padding: 10px;
+}
+
+.dropdown-item i {
+    font-size: 12px;
+}
+
+.avatar {
+    border-radius: 64px;
+    margin-top: 30px;
+}
+
+.extend {
+    margin: 3px;
+    color: #000000;
+    background-color: #f4f4f4;
+    width: 36px;
+    height: 33px;
+    padding: 4px 13px;
+}
+
+.page-number {
+    margin: 3px;
+    color: #000000;
+    background-color: #f4f4f4;
+    width: 36px;
+    height: 33px;
+    padding: 4px 13px;
+}
+
+.page-number:active {
+    background-color: #bec3c6;
+}
+
+.current {
+    color: #000000;
+    background-color: #dce1e6;
+}
+
+.footer {
+    padding: 15px 0 20px 0;
+    background-color: #f5f6f7;
+    font-size: 14px;
+}
+
+.card {
+    --bs-card-border-color: rgb(0 0 0 / 8%);
+}
+
+.card-me a {
+    text-decoration: none;
+}
+
+.border {
+    border: var(--bs-border-width) var(--bs-border-style) #f9f9f9 !important;
+    background-color: #fff;
+}
+
+.archive a {
+    margin-top: 10px;
+    color: #0360ff !important;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.carousel-inner {
+    border-radius: 15px;
+}
+
+.category-list {
+    margin-top: 20px;
+}
+
+.category-list a {
+    font-size: 24px;
+}
+
+.software-logo {
+    border-radius: 20px;
+}
+
+.software-info {
+    margin-top: 3rem;
+    padding: 0 20px;
+}
+
+.software-info p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.software-info .download-btn {
+    margin: 20px 0;
+}
+
+.software-info .download-btn {
+    margin: 20px 0;
+    padding: 8px 20px;
+}
+
+.software-info-item {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 0 20px;
+}
+
+.software-info-item-title {
+    padding: 3px 15px;
+    background-color: #dee2e6;
+    font-size: 16px;
+}
+
+.software-info-item-content {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.software-info-item-content img {
+    margin: 10px 0;
+}
+
+.software-info-item a {
+    color: #000;
+}
+
+.about-i {
+    padding: 30px 30px 42px 30px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-i a {
+    text-decoration: none;
+}
+
+.beian {
+    margin-top: 10px;
+    color: #8e8e8e;
+    display: flex;
+    align-items: center;
+}
+
+.beian .d-inline-block {
+    margin: 0 6px;
+}
+
+.beian a {
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+.beian a:hover {
+    color: #222;
+}
+
+.beian-logo {
+    width: 14px;
+}
