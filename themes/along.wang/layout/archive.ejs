@@ -1,9 +1,0 @@
-<div class="container">
-  <div class="row">
-    <%- partial('_partial/archive', {posts: site.posts.filter(post=> post.lang === page.lang), config: config}) %>
-    <div class="row m-1">
-      <%- paginator({ prev_text: '<' , next_text: '>' }) %>
-    </div>
-    
-  </div>
-</div>
