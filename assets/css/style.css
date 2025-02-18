@@ -150,6 +150,10 @@ header {
     color: #000;
 }
 
+.post-content{
+    color: #444;
+}
+
 .about-i {
     padding: 30px 30px 42px 30px;
     background-color: #fff;
